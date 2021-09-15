@@ -1,0 +1,34 @@
+#app {
+  box-sizing: border-box;
+
+  .post {
+    padding: 0 25px 0 25px;
+    .info {
+      font-family: 'Days One';
+      h1 {
+        font-size: 36px;
+      }
+      p {
+        float: left;
+        max-width: 200px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+      span {
+        line-height: 22px;
+        color: #6e6e6e;
+        float: left;
+        margin-left: 5px;
+        font-size: 15px;
+      }
+    }
+    .post-text {
+      margin-top: 15px;
+      width: 100%;
+      float: left;
+      font-family: 'Roboto Slab';
+      font-size: 18px;
+    }
+  }
+}

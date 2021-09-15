@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/style/css/create-post.css" class="css">
+  <%- include('./partials/head.ejs') %>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/autosize.js/5.0.1/autosize.min.js"></script>
+</head>
+<body>
+<%- include('./partials/nav.ejs') %>
+<div id="app">
+  <div style="height: 105px"></div>
+
+  <form id="post-form" method="post" action="/add-post">
+    <div class="form-info">
+      <label>
+        <input id="title" type="text" name="title" placeholder="Заголовок">
+      </label>
+      <label>
+        <input id="author" type="text" name="author" placeholder="Введите имя автора">
+      </label>
+    </div>
+    <div class="form-text">
+      <label>
+        <textarea id="title-text" name="text" placeholder="Напишите свою историю"></textarea>
+      </label>
+    </div>
+    <div class="form-button" style="width: 100%;
+    float: right;">
+      <input type="submit" value="Отправить"  style="
+          cursor: pointer;
+    float: right;
+    width: 100%;
+    padding: 10px;
+    background: #ff7878;
+">
+    </div>
+  </form>
+</div>
+<script>
+ autosize(document.querySelector("textarea"))
+</script>
+</body>
+</html>

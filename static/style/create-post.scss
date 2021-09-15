@@ -1,0 +1,25 @@
+#post-form {
+  input, textarea {
+    border: none;
+    outline: none;
+  }
+  #title {
+    font-family: 'Days One';
+    width: 100%;
+    font-size: 36px;
+    height: 46px;
+  }
+    #author {
+      font-family: 'Days One';
+      width: 100%;
+      font-size: 15px;
+      height: 17px;
+    }
+    #title-text {
+      margin-top: 20px;
+      font-family: 'Roboto Slab';
+      font-size: 18px;
+      width: 100%;
+      min-height: 500px;
+    }
+  }

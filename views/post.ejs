@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('./partials/head.ejs') %>
+  <link rel="stylesheet" href="/style/css/post.css" class="css">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="<%= post.title %>">
+  <meta property="article:author" content="<%= post.author %>">
+</head>
+<body>
+<div>
+  <%- include('./partials/nav.ejs') %>
+  <div id="app">
+    <div style="height: 105px"></div>
+    <article class="post">
+    <div class="info">
+      <h1><%= post.title %></h1>
+      <p>@<%= post.author %></p>
+      <span><%= post.createdAt.toLocaleDateString() || 'Нет даты' %></span>
+    </div>
+      <div class="post-text">
+        <p style="white-space: pre-line"><%= post.text %></p>
+      </div>
+
+  </article>
+  </div>
+  <%- include('./partials/footer.ejs') %>
+</div>
+</body>
+</html>

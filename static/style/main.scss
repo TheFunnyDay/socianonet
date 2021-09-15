@@ -1,0 +1,98 @@
+@font-face{
+  font-family: 'Days One';
+  src: url('/fonts/days-one.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'Roboto Slab';
+  src: url('/fonts/roboto/RobotoSlab-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  //background: url("https://i.ibb.co/P14ygRk/image-2021-09-13-21-25-57.png");
+}
+#app {
+  padding: 0 20px 0 20px;
+  overflow: hidden;
+  font-family: 'Days One';
+  max-width: 800px;
+  margin: 0 auto;
+  a{color: black; text-decoration: none}
+
+  #post {
+    margin: 25px auto;
+    width: 750px;
+    max-height: 750px;
+    background: #FFFFFF;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding: 15px 25px 15px 25px;
+    float: left;
+      article{
+        h1 {
+          font-size: 24px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          transition: .5s;
+
+          &:hover {
+            color: indianred;
+          }
+        }
+        .author {
+          width: 100%;
+          font-size: 15px;
+          float: left;
+          margin-top: 4px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;}
+        .post-text{
+          max-height: 505px;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          font-family: 'Roboto Slab';
+          width: 100%;
+          float: left;
+          margin-top: 15px;
+          p {
+            hyphens: auto;
+            display: -webkit-box;
+            -webkit-line-clamp: 14;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            overflow-wrap: break-word;
+            position: relative;
+          }
+        }
+        .info {
+          float: left;
+          padding-top: 15px ;
+          .date {
+            font-size: 15px;
+          }
+        }
+       .read {
+         border-top: 1px solid silver;
+         padding-top: 3px;
+         font-size: 20px;
+         float: left;
+         width: 100%;
+         text-align: center;
+         margin-top: 15px;
+         transition: .5s;
+         &:hover {
+           border-top: 1px dashed indianred;
+           color: indianred;
+         }
+       }
+      }
+    }
+  }
