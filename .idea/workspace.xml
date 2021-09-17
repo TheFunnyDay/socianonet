@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e77458cb-e699-4d9b-b5e9-4f0f24c003b9" name="Changes" comment="" />
+    <list default="true" id="e77458cb-e699-4d9b-b5e9-4f0f24c003b9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/post-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/post-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style/css/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/css/post.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style/post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/post.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/add-post.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/add-post.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/post.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/post.ejs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +65,16 @@
       <workItem from="1631709614010" duration="742000" />
       <workItem from="1631710376533" duration="617000" />
       <workItem from="1631716475174" duration="199000" />
-      <workItem from="1631716719768" duration="18000" />
+      <workItem from="1631716719768" duration="2036000" />
+      <workItem from="1631721474099" duration="1578000" />
+      <workItem from="1631725025962" duration="721000" />
+      <workItem from="1631727501363" duration="5037000" />
+      <workItem from="1631734415993" duration="95000" />
+      <workItem from="1631791052868" duration="534000" />
+      <workItem from="1631791601421" duration="943000" />
+      <workItem from="1631794569150" duration="3667000" />
+      <workItem from="1631803665646" duration="625000" />
+      <workItem from="1631864022206" duration="620000" />
     </task>
     <servers />
   </component>
@@ -72,5 +95,15 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/models/post.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

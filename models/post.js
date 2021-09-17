@@ -13,6 +13,10 @@ const postSchema = new Schema({
   author: {
     type: String,
     required: true,
+  },
+  cover: {
+    type: String,
+    required: false
   }
 }, { timestamps: true });
 

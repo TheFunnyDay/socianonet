@@ -7,10 +7,9 @@ const handleError = (res, error) => {
 }
 
 const getPost = (req, res) => {
-  const title = 'Post';
   Post
     .findById(req.params.id)
-    .then(post => res.render(createPath('post'), { post, title }))
+    .then(post => res.render(createPath('post'), { post, title: post.title }))
     .catch((error) => handleError(res, error));
 }
 
@@ -55,9 +54,9 @@ const getAddPost = (req, res) => {
 }
 
 const addPost = (req, res) => {
-  const { title, author, text } = req.body;
-  const post = new Post({ title, author, text });
-  if ({ text, title, author } === " ") {
+  const { title, author, text, cover } = req.body;
+  const post = new Post({ title, author, text, cover });
+  if ({ text, title, author, cover } === " ") {
     alert("wtf")
   }
   post

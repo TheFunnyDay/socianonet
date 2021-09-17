@@ -13,6 +13,9 @@
   <form id="post-form" method="post" action="/add-post">
     <div class="form-info">
       <label>
+        <input id="title" type="text" name="cover" placeholder="Обложка">
+      </label>
+      <label>
         <input id="title" type="text" name="title" placeholder="Заголовок">
       </label>
       <label>
@@ -37,6 +40,8 @@
   </form>
 </div>
 <script>
+ import autosize from "autosize/dist/autosize";
+
  autosize(document.querySelector("textarea"))
 </script>
 </body>

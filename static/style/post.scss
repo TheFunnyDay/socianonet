@@ -1,8 +1,29 @@
+#post-cover {
+  z-index: -1;
+  width: 90%;
+
+  min-width: 800px;
+  height: 400px;
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0 0 15px 15px;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
 #app {
   box-sizing: border-box;
 
   .post {
-    padding: 0 25px 0 25px;
+    min-height: 650px;
+    border-radius: 15px;
+    background-color: white;
+    overflow: hidden;
+    padding: 10px 25px 10px 25px;
     .info {
       font-family: 'Days One';
       h1 {

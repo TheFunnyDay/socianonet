@@ -10,6 +10,7 @@
 <body>
 <div>
   <%- include('./partials/nav.ejs') %>
+    <div id="post-cover" style="background-image: url(<%= post.cover %>)"></div>
   <div id="app">
     <div style="height: 105px"></div>
     <article class="post">
@@ -26,5 +27,16 @@
   </div>
   <%- include('./partials/footer.ejs') %>
 </div>
+<script>
+  let imageurl = document.querySelector("imgurl").innerHTML;
+
+  let img = document.createElement("img");
+
+  img.src = imageurl;
+
+  document.body.appendChild(img);
+
+  document.querySelector("imgurl").remove();
+</script>
 </body>
 </html>

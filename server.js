@@ -17,7 +17,7 @@ app.set('view engine', 'ejs');
 
 mongoose
   .connect(process.env.MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then((res) => console.log(successMsg('Connected to DB')))
+  .then(() => console.log(successMsg('Connected to DB')))
   .catch((error) => console.log(errorMsg(error)));
 
 app.listen(process.env.PORT, (error) => {
@@ -33,7 +33,6 @@ app.use(express.static('static'));
 app.use(methodOverride('_method'));
 
 app.get('/', (req, res) => {
-  const title = 'Главная';
   res.redirect('/posts');
 });
 

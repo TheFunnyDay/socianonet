@@ -14,9 +14,22 @@
   padding: 0;
   margin: 0;
 }
-body {
-  //background: url("https://i.ibb.co/P14ygRk/image-2021-09-13-21-25-57.png");
+
+body::-webkit-scrollbar {
+  width: 10px;
 }
+body::-webkit-scrollbar-track {
+  background: transparent;
+  width: 5px;
+  :hover{
+    width: 10px;
+  }
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(131, 131, 131);
+  border-radius: 25px;
+}
+
 #app {
   padding: 0 20px 0 20px;
   overflow: hidden;
