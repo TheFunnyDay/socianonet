@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e77458cb-e699-4d9b-b5e9-4f0f24c003b9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="e77458cb-e699-4d9b-b5e9-4f0f24c003b9" name="Changes" comment="cover update">
+      <change afterPath="$PROJECT_DIR$/static/scripts/workerScripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/post-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/post-controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/style/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/css/menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/style/css/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/css/post.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/menu.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/style/post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/post.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/add-post.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/add-post.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/error.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/error.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/head.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/nav.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/nav.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/post.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/post.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/posts.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/posts.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -44,10 +47,12 @@
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="D:\prog\WebStorm 2021.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\github\socianonet\static\image" />
       <recent name="D:\work\github\socianonet\static\style" />
     </key>
   </component>
@@ -74,8 +79,25 @@
       <workItem from="1631791601421" duration="943000" />
       <workItem from="1631794569150" duration="3667000" />
       <workItem from="1631803665646" duration="625000" />
-      <workItem from="1631864022206" duration="620000" />
+      <workItem from="1631864022206" duration="4037000" />
+      <workItem from="1631991314469" duration="1292000" />
+      <workItem from="1632147612656" duration="1278000" />
+      <workItem from="1632241822395" duration="1120000" />
+      <workItem from="1632284815055" duration="607000" />
+      <workItem from="1632550484191" duration="707000" />
+      <workItem from="1632552711430" duration="637000" />
+      <workItem from="1632562077483" duration="368000" />
+      <workItem from="1632656569939" duration="1504000" />
+      <workItem from="1632661242591" duration="168000" />
     </task>
+    <task id="LOCAL-00001" summary="cover update">
+      <created>1631865985645</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631865985645</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,14 +118,8 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/models/post.js</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cover update" />
+    <option name="LAST_COMMIT_MESSAGE" value="cover update" />
   </component>
 </project>

@@ -9,16 +9,16 @@
     <div style="height: 80px"></div>
     <% if (posts.length) { %>
       <% posts.forEach(({ id, title, createdAt, text, author }) => { %>
-      <div id="post" data-post-id="<%= id %>">
+      <div id="post"  data-post-id="<%= id %>">
       <article>
         <a href="/posts/<%= id %>">
             <h1>
               <%= title %>
             </h1>
         </a>
-          <span class="author">@<%= author %></span>
+          <span class="author" >@<%= author %></span>
           <div class="post-text">
-            <p><%= text %></p>
+            <p class=""><%= text %></p>
           </div>
         <div class="info">
             <span class="date"><%= createdAt.toLocaleDateString() %></span>

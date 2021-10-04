@@ -1,9 +1,8 @@
 #post-cover {
   z-index: -1;
-  width: 90%;
-
+  max-width: 1600px;
   min-width: 800px;
-  height: 400px;
+  height: 300px;
   position: absolute;
   background-position: center;
   background-size: cover;

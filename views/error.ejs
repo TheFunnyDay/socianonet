@@ -2,10 +2,30 @@
 <html lang="en">
 <head>
   <%- include('./partials/head.ejs') %>
-</head><body class="error">
+  <style>
+    body{
+      justify-content: center;
+    }
+    img {
+      margin:  105px 200px;
+    }
+    .error-text {
+      position: relative;
+      top: -100px;
+      left: 80px;
+    }
+  </style>
+</head>
+
+<body class="error">
+<%- include('./partials/nav.ejs') %>
+
 <div id="app">
+  <img src="https://doodleipsum.com/500/abstract" width="400px"/>
+<div class="error-text">
   <h1 class="error-code">Error</h1>
-  <p>Something going wrong...</p>
+  <p>Что-то пошло не так...</p>
+</div>
 </div>
 <%- include('./partials/footer.ejs') %>
 

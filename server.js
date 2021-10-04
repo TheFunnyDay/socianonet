@@ -8,10 +8,14 @@ const postRoutes = require('./routes/post-routes');
 const postApiRoutes = require('./routes/api-post-routes');
 const createPath = require('./helpers/create-path');
 
+//иконка
+
 const errorMsg = chalk.bgKeyword('white').redBright;
 const successMsg = chalk.bgKeyword('green').white;
 
 const app = express();
+//иконка
+
 
 app.set('view engine', 'ejs');
 
