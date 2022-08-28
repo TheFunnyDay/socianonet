@@ -7,13 +7,14 @@
 </head>
 <body>
 <%- include('./partials/nav.ejs') %>
+<div id="post-cover"></div>
 <div id="app">
   <div style="height: 105px"></div>
 
   <form id="post-form" method="post" action="/add-post">
     <div class="form-info">
       <label>
-        <input id="title" type="text" name="cover" placeholder="Обложка">
+        <input id="cover" type="text" name="cover" placeholder="Обложка" oninput="onInput()">
       </label>
       <label>
         <input id="title" type="text" name="title" placeholder="Заголовок">
@@ -40,9 +41,7 @@
   </form>
 </div>
 <script>
- import autosize from "autosize/dist/autosize";
-
- autosize(document.querySelector("textarea"))
+ 
 </script>
 </body>
 </html>
